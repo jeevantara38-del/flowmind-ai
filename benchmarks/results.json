@@ -1,0 +1,20 @@
+{
+  "dispatch_overhead": {
+    "num_tasks": 100,
+    "total_elapsed_seconds": 0.00246,
+    "overhead_per_task_microseconds": 24.57,
+    "status": "COMPLETED"
+  },
+  "parallel_scaling": {
+    "num_tasks": 20,
+    "sequential_duration_s": 0.2169,
+    "parallel_duration_s": 0.0609,
+    "speedup_factor": 3.56
+  },
+  "checkpoint_persistence": {
+    "records": 1000,
+    "save_time_ms": 0.003,
+    "load_time_ms": 0.002,
+    "verified": true
+  }
+}
